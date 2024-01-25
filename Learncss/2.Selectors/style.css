@@ -1,0 +1,35 @@
+/* *{
+    font-family: sans-serif;
+} */
+
+body{
+    font-size: 24px;
+}
+
+p:hover{
+    font-family: monospace;
+}
+
+/* #first>p{
+    color: green;
+} */
+
+#first ,#second ,#third{
+   color: red;
+   ;
+}
+
+
+#second{
+    color: rgb(111, 0, 255);
+}
+.purple{
+    color: purple ;
+    /* font-family: monospace;
+*/}
+
+.highlight{
+    background-color: yellow;
+    font-size: bolder;
+    font-style: italic;
+}
