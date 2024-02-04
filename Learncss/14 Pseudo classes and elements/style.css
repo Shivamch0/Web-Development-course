@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:link{
+    background-color: yellow;
+    color:green;
+}
+
+a:visited{
+    background-color: black;
+    color: white;
+}
+
+a:hover{
+    background-color: red;
+    color: blue;
+}
+
+a:active{
+    background-color: green;
+    color: black;
+
+}
