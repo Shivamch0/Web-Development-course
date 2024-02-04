@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
-a:link{
+/* a:link{
     background-color: yellow;
     color:green;
 }
@@ -23,4 +24,35 @@ a:active{
     background-color: green;
     color: black;
 
+} */
+
+ul li:nth-child(2n + 1){
+    background-color: green;
+}
+
+h1::first-letter{
+    background-color: red;
+}
+
+p::first-line{
+    background-color: black;
+    color: yellow;
+}
+::selection{
+   background-color: red;
+}
+
+/* before and after */
+
+h3::before{
+    content: 'any this is the begning';
+}
+
+h3::after{
+    content: '*';
+}
+
+.requried::after{
+     content: '*';
+    color: red;
 }
